@@ -1,0 +1,21 @@
+ul, li, dt
+{
+  margin-left: 20px;
+}
+
+dt
+{
+  float: left;
+  clear: left;
+  width: 160px;
+}
+
+dt::after
+{
+  content: ': ';
+}
+
+dd
+{
+  /* float: left; */
+}
